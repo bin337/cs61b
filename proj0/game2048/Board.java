@@ -103,9 +103,7 @@ public class Board implements Iterable<Tile> {
         }
     }
 
-    public void setValue(Tile[][] value) {
-        this.values = value;
-    }
+
 
     @Override
     /** Returns the board as a string, used for debugging. */
