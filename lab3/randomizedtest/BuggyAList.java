@@ -24,6 +24,10 @@ public class BuggyAList<Item> {
         size = 0;
     }
 
+    public static void main(String[] args) {
+        System.out.println();
+    }
+
     /** Resizes the underlying array to the target capacity. */
     private void resize(int capacity) {
         Item[] a = (Item[]) new Object[capacity];
